@@ -1,0 +1,19 @@
+{
+  "name": "hugo-audio-record",
+  "version": "0.0.1",
+  "description": "A lib to record and play audio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" "
+  },
+  "author": "Hugo",
+  "license": "ISC",
+  "devDependencies": {
+    "react": "^16.8.6",
+    "react-native": "^0.60.4"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}
