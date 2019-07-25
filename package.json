@@ -1,6 +1,10 @@
 {
   "name": "hugo-audio-record",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hugoct/hugo-audio-recorder.git"
+  },
   "description": "A lib to record and play audio",
   "main": "index.js",
   "scripts": {

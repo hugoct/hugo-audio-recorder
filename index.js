@@ -1,5 +1,4 @@
 import { NativeModules } from "react-native";
 
-const show = (texto = "") => NativeModules.MinhaLibToast.exibirToast(texto);
-
-export default show;
+export const startRecord = (fileName) => NativeModules.HugoAudioRecorder.startRecord(fileName);
+export const stopRecord = () => NativeModules.HugoAudioRecorder.stopRecord();
